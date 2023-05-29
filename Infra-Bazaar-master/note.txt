@@ -1,0 +1,28 @@
+
+
+TITLE              :  Infra Bazaar
+
+PLATFORM      : J2EE(Spring Boot MVC),Spring security,MySQL And Thymleaf
+
+DESCRIPTION   :
+The idea behind this project is to provide online platform for customer as well as seller to sell the 
+infrastructure material.Using this website small scale business will grow and our ultimate goal is provide
+best solution dynamic website for easy selling and buying. This system is developed in J2EE by using Spring Boot 
+and Restfull Webservices. For user interface Thymleaf is used and MySQL is used as a Database. 
+
+DESCRIPTION
+	infra-bazaar is a ecommerce infrastructure material selling site. Spring boot + Spring security + Thymeleaf is used to build the application.
+
+
+---------------INSERT QUARY IN USER TABLE-------------
+
+INSERT INTO `user` VALUES 
+(1,1,'admin@gmail.com','hitesh','kale','$2a$10$uA7FXFWM7Mf2vVm2/EABZeW7lDkITMuzBSCY3VGliJlkAJ7OCb8D.','ADMIN'),
+(2,1,'user@gmail.com','anup','h','$2a$10$AHHjLDLVpIcQqgsoiMHlpu/tduIjf9CD2uB7htAzjkfw1fZiVNz9O','USER'),
+(3,1,'manager@gmail.com','tushar','m','$2a$10$0DkGENe88Hd1rbEhpC6rA.Qj0Tlqp71FfwO11569.9tpzBPtjyFy.','MANAGER');
+
+
+          EMAIL                       PASSWORD
+    admin@gmail.com                admin123
+    user@gmail.com                  user123
+	manager@gmail.com            manager123
